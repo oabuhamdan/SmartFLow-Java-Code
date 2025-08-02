@@ -1,0 +1,29 @@
+<!--
+  ~ Copyright 2015-present Open Networking Foundation
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<app name="edu.uta.flowsched" origin="ON.Lab" version="1.0-SNAPSHOT"
+     category="Flow Sched App" url="http://onosproject.org" title="Flow Sched"
+     featuresRepo="mvn:edu.uta/flow-scheduling/1.0-SNAPSHOT/xml/features"
+     features="flowsched">
+    <description>ONOS OSGi bundle archetype</description>
+    <artifact>mvn:org.zeromq/jeromq/0.6.0</artifact>
+    <artifact>mvn:org.json/json/20240303</artifact>
+
+    <artifact>mvn:org.nd4j/nd4j-native/1.0.0-M2.1</artifact>
+    <!--    <artifact>mvn:com.google.ortools/ortools-java/9.11.4210</artifact>-->
+    <!--    <artifact>mvn:com.google.ortools/ortools-linux-x86-64/9.11.4210</artifact>-->
+    <!--    <artifact>mvn:org.jgrapht/jgrapht-core/1.5.2</artifact>-->
+    <!--    <artifact>mvn:org.jgrapht/jgrapht-io/1.5.2</artifact>-->
+</app>
