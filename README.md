@@ -31,11 +31,14 @@ You are free to share and adapt the material for any purpose, even commercially,
 ## Citation
 If you use SmartFLow in your research, please cite:
 ```bibtex
-@article{smartflow2025,
-  title={SmartFLow: A Communication-Efficient SDN Framework for Cross-Silo Federated Learning},
-  author={Abu Hamdan, Osama and Che, Hao and Arslan, Engin and Arifuzzaman, Md},
-  journal={arxiv},
-  year={2025}
+@misc{hamdan2025smartflowcommunicationefficientsdnframework,
+      title={SmartFLow: A Communication-Efficient SDN Framework for Cross-Silo Federated Learning}, 
+      author={Osama Abu Hamdan and Hao Che and Engin Arslan and Md Arifuzzaman},
+      year={2025},
+      eprint={2509.00603},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2509.00603}, 
 }
 ```
 
